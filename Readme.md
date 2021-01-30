@@ -41,5 +41,4 @@ Note. On paperspace
     
     
     
-    
-Blog: https://towardsdatascience.com/training-tensorflow-object-detection-api-with-custom-dataset-for-working-in-javascript-and-vue-js-6634e0f33e03
+Credit: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
