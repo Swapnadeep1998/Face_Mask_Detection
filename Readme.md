@@ -25,6 +25,9 @@
 
 8. Create folder inside object_detection with name 'training'. Inside it create a file 'label_map.pbtxt'
 
+9. Download the required model from TFOD2 Model zoo.
+    >> https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+
 9. Edit the model_pipeline_config file
 
 11. Start the training 
