@@ -37,6 +37,9 @@
     >> python3 exporter_main_v2.py --input_type image_tensor --pipeline_config_path training/pipeline.config --trained_checkpoint_dir training/ --output_directory InferenceGraph/
 
 
+13. TFJS Export:
+    >> tensorflowjs_converter --input_format=tf_saved_model --output_node_names='detection_boxes,detection_classes,detection_features,detection_multiclass_scores,detection_scores,num_detections,raw_detection_boxes,raw_detection_scores' --output_format=tfjs_graph_model --signature_name=serving_default ./InferenceGraph/saved_model ./tfjs_converted_graph
+
 
 Note. On paperspace
     >> sudo apt update
